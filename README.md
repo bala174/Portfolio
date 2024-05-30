@@ -3,7 +3,7 @@
 This is a personal portfolio website showcasing my skills, projects, and providing a way for potential employers or collaborators to contact me.
 
 ## Demo
-You can try the live demo here: [Check_Weather](https://bala174.github.io/Portfolio/).
+You can try the live demo here: [Check_Demo](https://bala174.github.io/Portfolio/).
 
 ## Table of Contents
 - [Features](#features)
