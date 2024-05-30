@@ -1,0 +1,138 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: rgb(250, 241, 230);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+/* Navbar Styles */
+.nav-link {
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #007bff;
+}
+
+/* Home Section Styles */
+.home {
+    padding: 100px 0;
+    text-align: left;
+}
+
+.home h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.home p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.homeContent .btn {
+    margin-right: 10px;
+}
+
+.photo {
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+}
+
+/* About Section Styles */
+.about {
+    padding: 100px 0;
+}
+
+.about h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 1.1rem;
+}
+
+/* Skills Section Styles */
+.card-body {
+    padding: 20px;
+}
+
+.card-body img {
+    margin-right: 10px;
+}
+
+/* Project Section Styles */
+.project {
+    padding: 100px 0;
+}
+
+.project h1 {
+    font-size: 2rem;
+    margin-bottom: 50px;
+}
+
+.carousel-item {
+    margin-bottom: 20px;
+}
+
+.card-title {
+    font-size: 1.5rem;
+}
+
+/* Contact Section Styles */
+.contact {
+    padding: 100px 0;
+}
+
+.contact h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.form-control {
+    margin-bottom: 20px;
+}
+
+/* Footer Styles */
+.footer {
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .home {
+        text-align: center;
+    }
+
+    .home img {
+        margin-top: 20px;
+    }
+
+    .about,
+    .project,
+    .contact {
+        text-align: center;
+    }
+
+    .about img,
+    .project img,
+    .contact img {
+        margin-bottom: 20px;
+    }
+}
